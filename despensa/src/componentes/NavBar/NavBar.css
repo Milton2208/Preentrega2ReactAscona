@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: brown;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#000000 ;
+    
+}
+
+.logoStrombo {
+    width: 150px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+li button{
+    background-color: #000000;
+    color: #fafafa;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border:none;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 5px ;
+    cursor: pointer;
+}

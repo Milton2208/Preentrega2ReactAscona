@@ -1,0 +1,19 @@
+.contenedorItem{
+    text-align: center;
+    border: 1px solid black;
+    margin: 4rem;
+    background-color: black;
+    object-fit: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+img{
+    width: 35vw;
+}
+
+.contenedorItem button{
+    border-radius:25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
